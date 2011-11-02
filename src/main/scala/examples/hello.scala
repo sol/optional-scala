@@ -1,4 +1,5 @@
-package optional.examples
+package com.github.paulp.optional.examples
+import com.github.paulp.optional
 
 // A simple hello world with two optional arguments and one required argument.
 // Try running it like so:

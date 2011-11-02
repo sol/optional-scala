@@ -1,3 +1,4 @@
+import com.github.paulp.optional
 import org.scalatest.FunSuite
 import org.scalatest.matchers.ShouldMatchers
 

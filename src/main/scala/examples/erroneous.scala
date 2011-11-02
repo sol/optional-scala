@@ -1,4 +1,5 @@
-package optional.examples
+package com.github.paulp.optional.examples
+import com.github.paulp.optional
 
 object Erroneous extends optional.Application
 {

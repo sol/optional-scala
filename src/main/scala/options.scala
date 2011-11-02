@@ -1,4 +1,4 @@
-package optional
+package com.github.paulp.optional
 
 import scala.collection._
 import mutable.HashSet

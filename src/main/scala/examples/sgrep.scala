@@ -1,4 +1,5 @@
-package optional.examples
+package com.github.paulp.optional.examples
+import com.github.paulp.optional
 
 import scala.util.matching.Regex
 import java.io.File

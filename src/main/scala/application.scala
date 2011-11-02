@@ -1,4 +1,4 @@
-package optional
+package com.github.paulp.optional
 
 import com.thoughtworks.paranamer.BytecodeReadingParanamer
 import java.io.File.separator

@@ -1,4 +1,4 @@
-package optional
+package com.github.paulp.optional
 
 object MakeCommand
 {
