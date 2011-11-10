@@ -1,3 +1,2 @@
-/project
-/target
-.*.swp
+/target/
+/project/target/
