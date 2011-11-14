@@ -253,7 +253,11 @@ trait Application
       else                      missing(name)
     }
     
-    mainMethod.invoke(this, (mainArgs map determineValue).toArray : _*)
+    try {
+      mainMethod.invoke(this, (mainArgs map determineValue).toArray : _*)
+    } catch {
+      case x: InvocationTargetException => throw x.getCause
+    }
   }
   
   
